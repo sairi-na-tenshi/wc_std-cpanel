@@ -1,0 +1,13 @@
+i\:panel-sidebar,
+.i-panel-sidebar
+{
+	position: absolute;
+	left: 10px; left: 11px\9; $left: 13px;
+	padding: 10px;
+	padding-left: 0;
+	top: 0; top: 1px\9; $top: 3px;
+	bottom: 0;bottom: 1px\9; $bottom: -2px;
+	width: 180px;
+	background: #ccc;
+	$height: 1%;
+}
