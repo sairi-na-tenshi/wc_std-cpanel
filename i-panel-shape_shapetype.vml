@@ -1,5 +1,7 @@
+<?import namespace="v" implementation="#default#VML" ?>
 <v:shapetype
-	id='i-panel'
+	xmlns:v="urn:schemas-microsoft-com:vml"
+	id='i-cpanel-shape'
 	adj='10'
 	strokecolor='#aaa'
 	coordorigin='0 0'

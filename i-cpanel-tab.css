@@ -1,4 +1,4 @@
-i\:panel-tab {
+i\:cpanel-tab {
 	display: block;
 	padding: 10px 20px;
 	font: 24px/1 'Times New Roman', serif;
@@ -6,14 +6,15 @@ i\:panel-tab {
 	background: none;
 }
 
-a:hover i\:panel-tab {
+a:hover i\:cpanel-tab {
 	background: #ddd;
 }
 
-i\:panel-tab.current\=true {
+i\:cpanel-tab.current\=true,
+a.target\=true i\:cpanel-tab {
 	background: #fff;
 }
 
-a:hover i\:panel-tab.current\=true {
+a:hover i\:cpanel-tab.current\=true {
 	background: #fff;
 }

@@ -1,5 +1,4 @@
-i\:panel-main,
-.i-panel-main{
+i\:cpanel-main {
 
 	display: table-cell;
 	$display: block; /* ie7- */
