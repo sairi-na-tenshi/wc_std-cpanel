@@ -1,12 +1,25 @@
 i\:panel,
 .i-panel {
-	display: block;
-	position: absolute;
-	top: 5%;
-	bottom: 5%;
-	left: 5%;
-	right: 5%;
-	width: 90%;
-	height: 90%;
-	text-align: center;
+	display: inline-block;
+	max-width: 1000px;
+	margin: 5%;
+	padding: 0 10px; padding: 3px 10px 0 13px\9;
+    text-align: left;
+    position: relative;
+    $overflow: hidden;
+
+   	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+    border: 1px solid #bbb;
+    border: none\9;
+
+	background: url( '../../iface/panel/panel_bg.svg' ) #fff; /* opera */
+	background: -moz-linear-gradient( left, #ccc, #fff );
+	background: -webkit-gradient( linear, left top, right top, from( #ccc ), to( #fff ) );
+    background: none\9; /* ie8- */
+
+	-webkit-box-shadow: 2px 2px 4px #ccc;
+	-moz-box-shadow: 2px 2px 4px #ccc;
+	box-shadow: 2px 2px 4px #ccc;
 }

@@ -1,0 +1,8 @@
+i\:panel-main,
+.i-panel-main{
+
+	display: table-cell;
+	$display: inline-block; /* ie7- */
+
+	background: #fff;
+}

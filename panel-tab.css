@@ -9,6 +9,6 @@ a:hover i\:panel-tab {
 	background: #ddd;
 }
 
-i\:panel-tab[current=true] {
+i\:panel-tab.current\=true {
 	background: #fff;
 }

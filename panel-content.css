@@ -1,17 +1,7 @@
 i\:panel-content,
-.i-panel-content
-{
-	position: absolute;
-	left: 200px;
-	right: 8px;
-	top: 0; top: 1px\9; $top: 3px;
-	bottom: 0; bottom: 1px\9; $bottom: -2px;
-	background: #fff;
-    padding: 2% 4% 2% 5%;
-    _height: 92%; /* ie6 */
-    overflow: auto;
-
-	box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
+.i-panel-content {
+position: relative;
+display: table;
+$display: block;
+$overflow: hidden;
 }
